@@ -1,0 +1,46 @@
+model_name,avg_accuracy_percent,confidence_interval_percent,shots,backbone
+Prototypical Network,67.11301369863013,1.274757829226822,1,tf_efficientnetv2_s.in21k_ft_in1k
+Matching Network,68.25,1.2950201151739682,1,tf_efficientnetv2_s.in21k_ft_in1k
+Fine-Tuning,61.50684931506849,1.3069233343961366,1,tf_efficientnetv2_s.in21k_ft_in1k
+Prototypical Network,74.53146853146855,1.2077383743304502,2,tf_efficientnetv2_s.in21k_ft_in1k
+Matching Network,72.67132867132868,1.1890839789037275,2,tf_efficientnetv2_s.in21k_ft_in1k
+Fine-Tuning,69.81818181818181,1.1988455639875921,2,tf_efficientnetv2_s.in21k_ft_in1k
+Prototypical Network,78.77857142857144,0.8556153575059298,3,tf_efficientnetv2_s.in21k_ft_in1k
+Matching Network,77.11071428571428,0.9805545930747559,3,tf_efficientnetv2_s.in21k_ft_in1k
+Fine-Tuning,73.39285714285715,1.0177480041739213,3,tf_efficientnetv2_s.in21k_ft_in1k
+Prototypical Network,83.294776119403,0.6948034480092631,5,tf_efficientnetv2_s.in21k_ft_in1k
+Matching Network,81.25746268656717,0.770091281371253,5,tf_efficientnetv2_s.in21k_ft_in1k
+Fine-Tuning,77.83582089552239,1.079716347658589,5,tf_efficientnetv2_s.in21k_ft_in1k
+Prototypical Network,85.82773109243698,0.5510704148075128,10,tf_efficientnetv2_s.in21k_ft_in1k
+Matching Network,85.94117647058823,0.6062228169627306,10,tf_efficientnetv2_s.in21k_ft_in1k
+Fine-Tuning,82.49579831932773,0.9656892835625459,10,tf_efficientnetv2_s.in21k_ft_in1k
+Prototypical Network,57.20205479452054,1.1051296395322314,1,resnet18.a1_in1k
+Matching Network,57.76369863013699,1.0556107508139552,1,resnet18.a1_in1k
+Fine-Tuning,43.780821917808225,2.0595743649681424,1,resnet18.a1_in1k
+Prototypical Network,64.93356643356645,1.1169702265358634,2,resnet18.a1_in1k
+Matching Network,62.185314685314694,1.024419385559402,2,resnet18.a1_in1k
+Fine-Tuning,47.56993006993008,2.0525003209761548,2,resnet18.a1_in1k
+Prototypical Network,70.60714285714285,0.8383358515535407,3,resnet18.a1_in1k
+Matching Network,65.275,1.074989204596958,3,resnet18.a1_in1k
+Fine-Tuning,52.11785714285715,1.6576039907046556,3,resnet18.a1_in1k
+Prototypical Network,76.410447761194,0.6606892240950923,5,resnet18.a1_in1k
+Matching Network,68.93283582089552,1.0833077778685773,5,resnet18.a1_in1k
+Fine-Tuning,57.06343283582088,1.75669372225667,5,resnet18.a1_in1k
+Prototypical Network,81.70588235294117,0.5594450537506699,10,resnet18.a1_in1k
+Matching Network,74.03361344537815,0.968128791226345,10,resnet18.a1_in1k
+Fine-Tuning,63.13865546218487,1.7194952949060813,10,resnet18.a1_in1k
+Prototypical Network,63.585616438356155,1.403215660043292,1,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Matching Network,64.76369863013697,1.2189077104390782,1,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Fine-Tuning,34.46232876712329,2.170868303993138,1,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Prototypical Network,72.25874125874127,1.051471065616615,2,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Matching Network,70.18181818181819,1.0036096050880097,2,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Fine-Tuning,34.57692307692308,2.376390210505924,2,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Prototypical Network,77.61071428571428,0.9499747944024621,3,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Matching Network,74.97500000000001,1.1386250436381593,3,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Fine-Tuning,37.43928571428572,2.500206669457547,3,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Prototypical Network,82.97014925373134,0.6554011088636225,5,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Matching Network,79.52611940298507,0.8036564261984195,5,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Fine-Tuning,41.07462686567165,2.394938327273952,5,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Prototypical Network,87.18907563025208,0.47814304876940883,10,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Matching Network,84.07142857142857,0.6782098459589844,10,vit_tiny_patch16_224.augreg_in21k_ft_in1k
+Fine-Tuning,43.57142857142858,2.3954515723124348,10,vit_tiny_patch16_224.augreg_in21k_ft_in1k
