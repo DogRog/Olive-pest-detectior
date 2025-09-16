@@ -35,7 +35,7 @@ This project addresses the critical need for automated detection of olive tree p
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/DogRog/Olive-pest-detectior.git)
    cd "Olive Pest Detector"
    ```
 
