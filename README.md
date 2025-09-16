@@ -2,7 +2,7 @@
 
 A machine learning project for detecting and classifying olive tree pests and diseases using computer vision techniques. This project implements both classification and object detection approaches to identify common olive tree ailments.
 
-## 🎯 Overview
+## Overview
 
 This project addresses the critical need for automated detection of olive tree pests and diseases, which can significantly impact olive production. The system can identify six major categories of olive tree problems:
 
@@ -153,3 +153,19 @@ jupyter notebook code/analysis/results_viz.ipynb
 - **Confidence Intervals**: Statistical significance of results
 - **t-SNE Visualization**: Feature space analysis
 - **mAP Scores**: Object detection performance metrics
+
+## 🎯 Results
+
+### Classification Performance
+<table>
+  <tr>
+    <td><img src="results/classification/accuracy_vs_shots_resnet18_a1_in1k.png" alt="Accuracy Comparison for ResNet-18" width="300"></td>
+    <td><img src="results/classification/accuracy_vs_shots_tf_efficientnetv2_s_in21k_ft_in1k.png" alt="Accuracy Comparison for EfficientNetV2-S" width="300"></td>
+    <td><img src="results/classification/accuracy_vs_shots_vit_tiny_patch16_224_augreg_in21k_ft_in1k.png" alt="Accuracy Comparison for Vision Transformer" width="300"></td>
+  </tr>
+</table>
+
+### Object Detection Performance
+Mean Average Precision (mAP) for the different object detection models.
+
+![mAP Comparison](results/object_detection/comparison_plot_map.png)
